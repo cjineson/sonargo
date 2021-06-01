@@ -30,6 +30,7 @@ type Rule struct {
 	Type            string       `json:"type,omitempty"`
 	DefaultDebtRemFnType string  `json:"defaultDebtRemFnType,omitempty"`
 	DefaultDebtRemFnOffset string  `json:"defaultDebtRemFnOffset,omitempty"`
+	DebtRemFnType 	string  	  `json:"debtRemFnType,omitempty"`
 }
 
 type RuleParam struct {
