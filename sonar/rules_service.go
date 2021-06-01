@@ -28,6 +28,7 @@ type Rule struct {
 	Scope           string       `json:"scope,omitempty"`
 	IsExternal      bool         `json:"isExternal,omitempty"`
 	Type            string       `json:"type,omitempty"`
+	DefaultDebtRemFnType string  `json:"defaultDebtRemFnType,omitempty"`
 }
 
 type RuleParam struct {
