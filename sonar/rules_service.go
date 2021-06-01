@@ -29,7 +29,7 @@ type Rule struct {
 	IsExternal      bool         `json:"isExternal,omitempty"`
 	Type            string       `json:"type,omitempty"`
 	DefaultDebtRemFnType string  `json:"defaultDebtRemFnType,omitempty"`
-	defaultDebtRemFnOffset string  `json:"defaultDebtRemFnOffset,omitempty"`
+	DefaultDebtRemFnOffset string  `json:"defaultDebtRemFnOffset,omitempty"`
 }
 
 type RuleParam struct {
